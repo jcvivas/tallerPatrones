@@ -20,5 +20,19 @@ public class Director {
        }
        return instance;
    }
-   
+   public void makePdfReport(Builder b){
+       b.setReportType(ReportType.PDF);
+       b.setTitle("Pdf");
+       b.setContent("Cuerpo Pdf");
+   }
+      public void makeWordReport(Builder b){
+       b.setReportType(ReportType.WORD);
+       b.setTitle("Word");
+       b.setContent("Cuerpo Word");
+   }
+      public void makeExcelReport(Builder b){
+       b.setReportType(ReportType.EXCEL);
+       b.setTitle("Excel");
+       b.setContent("Cuerpo Excel");
+   }
 }
