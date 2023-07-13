@@ -8,8 +8,8 @@ package Builder;
  *
  * @author USUARIO
  */
-public interface Builder {
-    void setReportType( ReportType rt);
-    void setTitle(String s);
-    void setContent (String s);
+public interface Informe {
+    void saveInforme();
+    void viasualizeInforme();
+    void personalizeInforme();
 }
