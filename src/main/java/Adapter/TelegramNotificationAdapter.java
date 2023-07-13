@@ -9,6 +9,10 @@ import java.io.FileOutputStream;
  * @author marle
  */
 package Adapter;
+
+import Builder.Informe;
+import java.io.FileOutputStream;
+
 public class TelegramNotificationAdapter {
    private TelegramNotification adaptee;
     private Informe informe;
